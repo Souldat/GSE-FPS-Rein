@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Machine+Gun+4.ogg-78e2ffe475f40cd0df852e1ec1a85bd4.oggstr"
+
+[deps]
+
+source_file="res://Audio/Effects/Gun sounds/Machine+Gun+4.ogg"
+dest_files=[ "res://.import/Machine+Gun+4.ogg-78e2ffe475f40cd0df852e1ec1a85bd4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

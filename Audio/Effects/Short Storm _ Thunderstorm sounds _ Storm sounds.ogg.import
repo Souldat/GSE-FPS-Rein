@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Short Storm _ Thunderstorm sounds _ Storm sounds.ogg-533c78f0cc654b419239567c79ab9cda.oggstr"
+
+[deps]
+
+source_file="res://Audio/Effects/Short Storm _ Thunderstorm sounds _ Storm sounds.ogg"
+dest_files=[ "res://.import/Short Storm _ Thunderstorm sounds _ Storm sounds.ogg-533c78f0cc654b419239567c79ab9cda.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/New York, Traffic - New York City_ Traffic_ Slow Rush Hour, Heavy Horns Ambience Traffic Ambiences.ogg-db2254ef2c08f10f82db1cb0d2489af7.oggstr"
+
+[deps]
+
+source_file="res://Audio/Effects/New York, Traffic - New York City_ Traffic_ Slow Rush Hour, Heavy Horns Ambience Traffic Ambiences.ogg"
+dest_files=[ "res://.import/New York, Traffic - New York City_ Traffic_ Slow Rush Hour, Heavy Horns Ambience Traffic Ambiences.ogg-db2254ef2c08f10f82db1cb0d2489af7.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

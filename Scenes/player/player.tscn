@@ -1,0 +1,130 @@
+[gd_scene load_steps=43 format=2]
+
+[ext_resource path="res://Scenes/player/player.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_0.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_1.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_2.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_3.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_4.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_5.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_6.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/player_sprite/death/Ellie frame_death_7.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/player_sprite/shoot/Ellie frame_shoot_0.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/player_sprite/shoot/Ellie frame_shoot_1.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/player_sprite/shoot/Ellie frame_shoot_2.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/player_sprite/shoot/Ellie frame_shoot_3.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/player_sprite/idle/Ellie frame_idle_0.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/player_sprite/idle/Ellie frame_idle_1.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/player_sprite/idle/Ellie frame_idle_2.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/player_sprite/idle/Ellie frame_idle_3.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_00.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_01.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_02.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_03.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_04.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_05.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_06.png" type="Texture" id=24]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_07.png" type="Texture" id=25]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_08.png" type="Texture" id=26]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_09.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_10.png" type="Texture" id=28]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_11.png" type="Texture" id=29]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_12.png" type="Texture" id=30]
+[ext_resource path="res://Sprites/player_sprite/run_right/Ellie frame_run_13.png" type="Texture" id=31]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_0.png" type="Texture" id=32]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_1.png" type="Texture" id=33]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_2.png" type="Texture" id=34]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_3.png" type="Texture" id=35]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_4.png" type="Texture" id=36]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_5.png" type="Texture" id=37]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_6.png" type="Texture" id=38]
+[ext_resource path="res://Sprites/player_sprite/aim/Ellie frame_aim_7.png" type="Texture" id=39]
+[ext_resource path="res://Audio/Effects/Gun sounds/Machine+Gun+6.ogg" type="AudioStream" id=40]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 127.253, 266.667 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "idle_right",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "run_left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "death",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "aim",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "shoot",
+"speed": 28.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "run_right",
+"speed": 12.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "idle_left",
+"speed": 5.0
+} ]
+
+[node name="player_kinematicbody" type="KinematicBody2D"]
+position = Vector2( 184.558, 578.387 )
+scale = Vector2( 0.25, 0.25 )
+collision/safe_margin = 0.05
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.302368, 0.109863 )
+scale = Vector2( 0.3, 0.3 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -0.554688, -0.254425 )
+frames = SubResource( 2 )
+animation = "aim"
+frame = 1
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( -4.33533, 0.110107 )
+scale = Vector2( 4, 4 )
+current = true
+zoom = Vector2( 0.75, 0.75 )
+drag_margin_left = 0.0
+drag_margin_top = 0.5
+drag_margin_right = 0.0
+drag_margin_bottom = 0.0
+
+[node name="sfx_gunshot" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 40 )
+volume_db = -26.376
+mix_target = 1
+
+[node name="ground_ray1" type="RayCast2D" parent="."]
+position = Vector2( -35.7266, 78.1236 )
+enabled = true
+cast_to = Vector2( 0, 40 )
+
+[node name="ground_ray2" type="RayCast2D" parent="."]
+position = Vector2( 36.2593, 77.5874 )
+enabled = true
+cast_to = Vector2( 0, 40 )
+
+[node name="ground_ray3" type="RayCast2D" parent="."]
+position = Vector2( -3.51648, 78.0684 )
+enabled = true
+cast_to = Vector2( 0, 20 )
